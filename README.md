@@ -1,3 +1,5 @@
+[English](readme_en.md) [简体中文](README.md)
+
 ## 序言
  此数据包让运输矿车GUI配置更加简单快捷，只需要在storage配置并执行生成函数即可快速配置一个GUI
 

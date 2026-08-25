@@ -1,3 +1,5 @@
+[English](readme_en.md) [简体中文](README.md)
+
 ## Introduction
  This datapack makes configuring the Chest Minecart GUI simpler and more convenient. You only need to configure the storage and execute the generation function to quickly create a GUI.
 
