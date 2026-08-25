@@ -1,0 +1,1 @@
+function chest_gui:tick/entities/chest_minecarts

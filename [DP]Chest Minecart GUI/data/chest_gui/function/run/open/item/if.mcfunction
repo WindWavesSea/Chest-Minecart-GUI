@@ -1,0 +1,1 @@
+$execute if data storage windwaves_sea:chest_gui {temp:{open:{first_slot_id:"$(slot_id)"}}} run return 1

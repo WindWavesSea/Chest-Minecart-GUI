@@ -1,0 +1,3 @@
+scoreboard objectives add chest_gui_operation dummy
+scoreboard objectives add chest_gui_recursion dummy
+scoreboard objectives add chest_gui_stop_watch dummy

@@ -1,0 +1,2 @@
+$execute unless items entity @s[tag=tick] container.$(slot_id) $(item_id)[minecraft:custom_data={tag:["chest_gui"]}] run \
+function chest_gui:run/opened/click_event/main with storage windwaves_sea:chest_gui temp.opened.tick."$(player_uuid)"

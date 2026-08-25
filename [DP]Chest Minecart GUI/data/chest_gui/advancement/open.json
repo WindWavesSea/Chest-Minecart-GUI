@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "open":{
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chest_gui:chest_gui"
+            }
+        }
+    }
+}

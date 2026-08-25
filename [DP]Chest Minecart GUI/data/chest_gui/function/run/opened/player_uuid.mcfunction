@@ -1,0 +1,1 @@
+$data modify storage windwaves_sea:chest_gui temp.opened.tick.player_uuid set from storage windwaves_sea:chest_gui temp.opened.entity_list."$(chest_minecart_uuid)"

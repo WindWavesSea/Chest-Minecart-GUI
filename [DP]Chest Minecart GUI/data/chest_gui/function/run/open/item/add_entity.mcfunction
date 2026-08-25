@@ -1,0 +1,1 @@
+$data modify storage windwaves_sea:chest_gui entity."$(summon_minecart_uuid)" set value "$(name)"

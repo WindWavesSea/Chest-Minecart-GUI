@@ -1,0 +1,1 @@
+execute if entity @s[tag=npc] run function npc:tick/entities/manequins

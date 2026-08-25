@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) summon chest_minecart run function chest_gui:run/summon/run/2 with storage windwaves_sea:chest_gui temp.summon

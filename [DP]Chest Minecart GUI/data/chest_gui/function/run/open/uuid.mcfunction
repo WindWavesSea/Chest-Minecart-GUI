@@ -1,0 +1,2 @@
+$data modify storage windwaves_sea:chest_gui temp.opened.entity_list."$(chest_minecart_UUID)" set value $(player_UUID)
+$data modify storage windwaves_sea:chest_gui temp.opened.entity_list."$(player_UUID)" merge value {"chest_minecart_uuid":$(chest_minecart_UUID)}

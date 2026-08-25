@@ -1,0 +1,1 @@
+$data modify storage windwaves_sea:chest_gui temp.open.name set from storage windwaves_sea:chest_gui entity."$(chest_minecart_UUID)"

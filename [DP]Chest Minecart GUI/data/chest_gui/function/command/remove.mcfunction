@@ -1,0 +1,1 @@
+$execute as @e[tag=$(name),tag=chest_gui] at @s run function chest_gui:run/command/remove/main

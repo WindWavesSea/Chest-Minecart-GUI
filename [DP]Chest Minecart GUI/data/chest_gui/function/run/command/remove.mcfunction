@@ -1,0 +1,1 @@
+$data remove storage windwaves_sea:chest_gui entity."$(chest_minecart_uuid)"

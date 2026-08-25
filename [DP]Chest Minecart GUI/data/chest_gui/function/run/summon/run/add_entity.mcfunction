@@ -1,0 +1,1 @@
+$data modify storage windwaves_sea:chest_gui entity."$(UUID)" set value "$(name)"
