@@ -4,18 +4,12 @@ storage windwaves_sea:chest_gui config.$(name).slot_id.[0]
 $data modify storage windwaves_sea:chest_gui temp.open.slot_id set from \
 storage windwaves_sea:chest_gui config.$(name).slot_id.[0]
 
-$execute as @s at @s run summon chest_minecart ~ ~ ~ \
-{\
-    Tags:["chest_gui","$(name)","new"],\
-    Silent:true,\
-    Invulnerable:true,\
-    NoGravity:1b,\
-    LootTable:"chest_gui:chest_gui"\
-    ,DisplayState:{Name:"barrier"}\
-}
+function chest_gui:run/open/item/summon with storage windwaves_sea:chest_gui temp.open
 
 $execute if entity @s[tag=top_gui] as @n[tag=new,type=chest_minecart] at @s run \
 function chest_gui:run/open/item/add_tag {tag:"top_gui",name:"$(name)"}
+$execute if entity @s[tag=middle_gui] as @n[tag=new,type=chest_minecart] at @s run \
+function chest_gui:run/open/item/add_tag {tag:"middle_gui",name:"$(name)"}
 $execute if entity @s[tag=down_gui] as @n[tag=new,type=chest_minecart] at @s run \
 function chest_gui:run/open/item/add_tag {tag:"down_gui",name:"$(name)"}
 

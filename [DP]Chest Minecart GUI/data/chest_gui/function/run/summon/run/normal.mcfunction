@@ -1,0 +1,1 @@
+function chest_gui:run/summon/run/1 with storage windwaves_sea:chest_gui temp.summon
